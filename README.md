@@ -11,19 +11,19 @@
        http://axel.inria.fr/user_documentations/45.
   
   After that: 
-       In Windows, you can use CMake 2.8 to create the project, use Visual Studio to build. 
+       In Windows, you can use CMake 2.8 to create the project, use Visual Studio to build.   
        (Tested with Visual Studio 2008, windows 7 - for axel SDK, check out the tutorial.)
 ##Problem? 
-   Problem 1:
-   - OS: Windows 7.
-   - Content: unistd.h problem
-   - Solution: Install cygwin can solve your problem.
+* Problem 1:
+   - OS: Windows 7.  
+   - Content: unistd.h problem  
+   - Solution: change unistd.h to io.h.
    
-   Problem 2: 
+* Problem 2: 
    - OS: Windows 7
    - Content: CMake + Visual Studio 2010 when build VTK, fail from beginning. 
-   - Solution: Check .Net Frameworks version. 
-            * If it's differences with version 4.0,Uninstall .Net,reinstall .Net Frameworks 4.0.
+   - Solution: Check .Net Frameworks version.   
+               If it's differences with version 4.0,Uninstall .Net,reinstall .Net Frameworks 4.0.
       
 #Contact: 
    Email: peterpans2014@gmail.com
